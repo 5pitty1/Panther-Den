@@ -1,12 +1,11 @@
-
 #titlez {
     text-align: center;
     font-family: "Calibri", sans-serif;
     color: #87a8c6;
     font-weight: bold;
     font-size: 7vw;
-    padding-top: .2vh;
-    padding-bottom: 5vh;
+    padding-top: 1.2vw;
+    padding-bottom: 3vw;
 }
 
 .loginbox {
@@ -15,22 +14,23 @@
     -webkit-border-radius: 8px;
     border-radius: 8px;
     width: 47vw;
-    height: 28vw;
+    height: 30vw;
     margin-left: auto;
     margin-right: auto;
     -webkit-box-shadow: 0px 0px 16px #7aaaca;
+    top: -1vw;
 }
 
 .dottedline {
     margin-left: auto;
     margin-right: auto;
-    width: 96%;
+    width: 97%;
     height: 95%;
     position: relative;
     top: 50%;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
-    border: dashed 1px #bababa;
+    border: dashed .15vw #bababa;
 }
 
 #logintype{
@@ -38,24 +38,44 @@
     font-family: "Calibri", sans-serif;
     color: #959595;
     font-weight: bold;
-    font-size: 2.5vw;
+    font-size: 3.5vw;
+    position: relative;
+    top: -1vw;
+    
 }
 
-input {
-    border: solid 2px #cecfd1;
-    border-radius: 4px;
-    background-color: #fefefe;
-    width: 25vw;
-    height: 2.5vw;
-    padding-left: 10px;
+#username, #password {
+    width: 32vw;
+    height: 3.7vw;
+    padding-left: 1.2vw;
     display: block;
+    top: -2.5vw;    
+}
+
+.button {
+    text-align: center;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+}
+
+#username, #password, .button {
+    position: relative;
+    border: solid .25vw #cecfd1;
+    border-radius: .5vw;
+    background-color: #fefefe;
     margin-left: auto;
     margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
-    font-size: .8em;
+    font-size: 2.3vw;
+    color: #a5a5a5;
 }
 
-input:focus {
+.bl {
+    height: 3.7vw;
+    width: 10vw;
+    top: -1vw;
+}
+
+#username, #password:focus {
     outline: none;
 }
