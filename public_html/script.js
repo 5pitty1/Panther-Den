@@ -1,4 +1,4 @@
-$(document).ready(function() {
+/*$(document).ready(function() {
    var front = $('.front');
    var notfront = $('.back');
    var admin = $('#admin');
@@ -10,4 +10,4 @@ $(document).ready(function() {
     admin.click(function(){
         notfront.toggleclass('active');
     });
-});
+});*/

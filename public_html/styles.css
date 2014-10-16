@@ -9,27 +9,27 @@
 }
 
 #gap {
-    line-height: 2vw;
+    line-height: 4vw;
 }
 
 .loginbox {
     position: relative;
     background-color: #f0f1f3;
-    -webkit-border-radius: 8px;
-    border-radius: 8px;
+    -webkit-border-radius: .5vw;
+    border-radius: .5vw;
     width: 47.2vw;
     height: 30vw;
     margin-left: auto;
     margin-right: auto;
-    -webkit-box-shadow: 0px 0px 16px #7aaaca;
+    -webkit-box-shadow: 0px 0px .9vw #7aaaca;
     top: -1vw;
 }
 
 .dottedline {
     margin-left: auto;
     margin-right: auto;
-    width: 97%;
-    height: 95%;
+    width: 45.8vw;
+    height: 28.5vw;
     position: relative;
     top: 50%;
     -webkit-transform: translateY(-50%);
@@ -84,7 +84,7 @@
     height: 7.2vw;
     width: 32vw;
     font-size: 3.5vw;
-    top: 10vh;
+    top: 5vw;
 }
 
 #wrapper {
@@ -108,11 +108,11 @@
     transform-style: preserve-3d;
 }
 
-.flip-container .back.active {
+.flip-container:hover .back {
     transform: rotateY(0deg);
 }
 
-.flip-container .front.active {
+.flip-container:hover .front{
     transform: rotateY(180deg);
 }
 
@@ -153,10 +153,10 @@
     transform: rotateX(180deg);
 }
 
-.vertical.flip-container.active .back {
+.vertical.flip-container:hover .back {
     transform: rotateX(0deg);
 }
 
-.vertical.flip-container.active .front {
+.vertical.flip-container:hover .front {
     transform: rotateX(180deg);
 }
