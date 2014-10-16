@@ -19,12 +19,20 @@ and open the template in the editor.
                 <div id="login">
                     <p id="logintype">Administrator Login</p>
                     <input id="username" placeholder="Username" autofocus="" required="" >
-                    <br>
+                    <br id="userpassgap">
                     <input type="password" id="password" placeholder="Password" required="" >
                     <br>
-                    <input type="submit" class="button bl" value="Back" name="back" />
-                    <input type="submit" class="button bl" value="Login" name="login" />
+                    <div id="wrapper" style="text-align: center">
+                        <input type="button" class="button bl" style="float: left;" value="Back" name="back" />
+                        <input type="button" class="button bl" style="float: right;" value="Login" name="login" />
+                    </div>
                 </div>
+            </div>
+        </div>
+        <div class="loginbox">
+            <div class="dottedline">
+                <input type="button" class="button at" value="ADMINISTRATOR" name="admin"/>
+                <input type="button" class="button at" value="TEACHER" name="teacehr"/>
             </div>
         </div>
     </body>

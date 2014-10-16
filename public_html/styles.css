@@ -13,7 +13,7 @@
     background-color: #f0f1f3;
     -webkit-border-radius: 8px;
     border-radius: 8px;
-    width: 47vw;
+    width: 47.2vw;
     height: 30vw;
     margin-left: auto;
     margin-right: auto;
@@ -55,8 +55,6 @@
 .button {
     text-align: center;
     font-weight: bold;
-    display: inline-block;
-    text-align: center;
 }
 
 #username, #password, .button {
@@ -72,10 +70,28 @@
 
 .bl {
     height: 3.7vw;
-    width: 10vw;
+    width: 12vw;
     top: -1vw;
+    display: inline-block;
 }
 
-#username, #password:focus {
+.at {
+    display: block;
+    height: 7.2vw;
+    width: 32vw;
+    font-size: 3.5vw;
+    
+}
+
+#wrapper {
+    width: 26vw;
+    margin: 0 auto;
+}
+
+#username, #password, .button:focus {
     outline: none;
+}
+
+.button:hover{
+    cursor: pointer;
 }
