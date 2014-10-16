@@ -14,29 +14,35 @@ and open the template in the editor.
     </head>
     <body style="background-image: linear-gradient(#b0d6f0, #dde8f0);">
         <div id="titlez">PANTHER DEN</div>
-        <div class="loginbox">
-            <div class="dottedline">
-                <div id="login">
-                    <p id="logintype">Administrator Login</p>
-                    <input id="username" placeholder="Username" autofocus="" required="" >
-                    <br id="userpassgap">
-                    <input type="password" id="password" placeholder="Password" required="" >
-                    <br>
-                    <div id="wrapper" style="text-align: center">
-                        <input type="button" class="button bl" style="float: left;" value="Back" name="back" />
-                        <input type="button" class="button bl" style="float: right;" value="Login" name="login" />
+        <div class="flip-container">
+            <div class="flipper">
+                <div class="front">
+                    <div class="loginbox">
+                        <div class="dottedline">
+                            <!--   <input type="button" id="admin" class="button at" value="ADMINISTRATOR" name="admin"/>-->
+                            <button class="button at" id="admin">ADMINISTRATOR</button>
+                            <br id="gap">
+                            <!--    <input type="button" id="teach" class="button at" value="TEACHER" name="teacehr"/>-->
+                            <button class="button at" id="teach">TEACHER</button>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="loginbox">
-            <div class="dottedline">
-                <input type="button" class="button at" value="ADMINISTRATOR" name="admin"/>
-                <br>
-                <br>
-                <br>
-                <br>
-                <input type="button" class="button at" value="TEACHER" name="teacehr"/>
+                <div class="back">
+                    <div class="loginbox">
+                        <div class="dottedline">
+                            <div id="login">
+                                <p id="logintype">Administrator Login</p>
+                                <input id="username" placeholder="Username" required="" >
+                                <br id="userpassgap">
+                                <input type="password" id="password" placeholder="Password" required="" >
+                                <br>
+                                <div id="wrapper" style="text-align: center">
+                                    <input type="button" class="button bl" style="float: left;" value="Back" name="back" />
+                                    <input type="button" class="button bl" style="float: right;" value="Login" name="login" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>                </div>
             </div>
         </div>
     </body>
