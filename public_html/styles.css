@@ -108,11 +108,7 @@
     transform-style: preserve-3d;
 }
 
-.flip-container:hover .back {
-    transform: rotateY(0deg);
-}
-
-.flip-container:hover .front{
+.flip-container .flipper.flip {
     transform: rotateY(180deg);
 }
 

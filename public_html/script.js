@@ -1,13 +1,8 @@
-/*$(document).ready(function() {
-   var front = $('.front');
-   var notfront = $('.back');
-   var admin = $('#admin');
-   var teach = $('#teach');
-   var back = $('#back');
- //  admin.on('click', function() {
- //     box.toggleClass('active'); 
- //  });
-    admin.click(function(){
-        notfront.toggleclass('active');
+$(document).ready(function () {
+    $('.flip-container').click(function() {
+        $(this).find('.flipper').addClass('flip').mouseleave(function() {
+            $(this).removeClass('flip');
+        });
     });
-});*/
+    return false;
+});
