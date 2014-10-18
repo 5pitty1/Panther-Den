@@ -1,8 +1,23 @@
 $(document).ready(function () {
-    $('.flip-container').click(function() {
-        $(this).find('.flipper').addClass('flip').mouseleave(function() {
-            $(this).removeClass('flip');
-        });
+    $('#admin').on('click', function () {
+        $('.flipper').addClass('flip');
+        $('#logintype').text("Administrator Login");
+        setTimeout(function () {
+            $('#username').focus();
+        }, 500);
     });
-    return false;
+    $('#teach').on('click', function () {
+        $('.flipper').addClass('flip');
+        $('#logintype').text("Teacher Login");
+        setTimeout(function () {
+            $('#username').focus();
+        }, 500);
+    });
+    $('#Back').on('click', function () {
+        $('.flipper').removeClass('flip');
+        setTimeout(function () {
+            $('#username').val("");
+            $('#password').val("");
+        }, 500);
+    });
 });

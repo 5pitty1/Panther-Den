@@ -10,12 +10,13 @@ and open the template in the editor.
         <title>Panther Den</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script type="javascript/text" src="script.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" ></script>
+        <script src="script.js"></script>
     </head>
     <body style="background-image: linear-gradient(#b0d6f0, #dde8f0);">
         <div id="titlez">PANTHER DEN</div>
         <div class="flip-container">
-            <div class="flipper">
+            <div class="flipper" id="flipp">
                 <div class="front">
                     <div class="loginbox">
                         <div class="dottedline">
@@ -30,17 +31,18 @@ and open the template in the editor.
                         <div class="dottedline">
                             <div id="login">
                                 <p id="logintype">Administrator Login</p>
-                                <input id="username" placeholder="Username" required="" >
+                                <input type="email" id="username" placeholder="Username" required="" >
                                 <br id="userpassgap">
-                                <input type="password" id="password" placeholder="Password" required="" >
+                                <input type="password" id="password" placeholder="Password" required="">
                                 <br>
                                 <div id="wrapper" style="text-align: center">
-                                    <input type="button" class="button bl" style="float: left;" value="Back" name="back" />
-                                    <input type="button" class="button bl" style="float: right;" value="Login" name="login" />
+                                    <input type="button" id="Back" class="button bl" style="float: left;" value="Back" name="back" />
+                                    <input type="button" id="Login" class="button bl" style="float: right;" value="Login" name="login" />
                                 </div>
                             </div>
                         </div>
-                    </div>                </div>
+                    </div>                
+                </div>
             </div>
         </div>
     </body>

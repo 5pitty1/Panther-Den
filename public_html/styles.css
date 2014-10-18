@@ -108,7 +108,11 @@
     transform-style: preserve-3d;
 }
 
-.flip-container .flipper.flip {
+.flipper.flip .back {
+    transform: rotateY(0deg);
+}
+
+.flipper.flip .front {
     transform: rotateY(180deg);
 }
 
@@ -139,20 +143,4 @@
 
 .back {
     transform: rotateY(-180deg);
-}
-
-.vertical.flip-container {
-    position: relative;
-}
-
-.vertical .back {
-    transform: rotateX(180deg);
-}
-
-.vertical.flip-container:hover .back {
-    transform: rotateX(0deg);
-}
-
-.vertical.flip-container:hover .front {
-    transform: rotateX(180deg);
 }
