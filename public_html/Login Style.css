@@ -1,8 +1,5 @@
 #titlez {
     text-align: center;
-    font-family: "Calibri", sans-serif;
-    color: #87a8c6;
-    font-weight: bold;
     font-size: 7vw;
     padding-top: 1.2vw;
     padding-bottom: 3vw;
@@ -56,10 +53,6 @@
     top: -2.5vw;    
 }
 
-.button {
-    text-align: center;
-    font-weight: bold;
-}
 
 #username, #password, .button {
     position: relative;
@@ -90,14 +83,6 @@
 #wrapper {
     width: 26vw;
     margin: 0 auto;
-}
-
-#username, #password, .button:focus {
-    outline: none;
-}
-
-.button:hover{
-    cursor: pointer;
 }
 
 .flip-container {

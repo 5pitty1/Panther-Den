@@ -4,21 +4,22 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
-<html style="min-height: 100%;">
+<html>
     <head>
-        <link rel="stylesheet" href="styles.css" type="text/css"/>
+        <link rel="stylesheet" href="Main Style.css" type="text/css"/>
+        <link rel="stylesheet" href="Login Style.css" type="text/css"/>
         <title>Panther Den</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" ></script>
-        <script src="script.js"></script>
+        <script src="login.js"></script>
     </head>
-    <body style="background-image: linear-gradient(#b0d6f0, #dde8f0);">
+    <body>
         <div id="titlez">PANTHER DEN</div>
         <div class="flip-container">
             <div class="flipper" id="flipp">
                 <div class="front">
-                    <div class="loginbox">
+                    <div class="loginbox shadow">
                         <div class="dottedline">
                             <button class="button at" id="admin">ADMINISTRATOR</button>
                             <br id="gap">
@@ -27,7 +28,7 @@ and open the template in the editor.
                     </div>
                 </div>
                 <div class="back">
-                    <div class="loginbox">
+                    <div class="loginbox shadow">
                         <div class="dottedline">
                             <div id="login">
                                 <p id="logintype">Administrator Login</p>
@@ -37,7 +38,9 @@ and open the template in the editor.
                                 <br>
                                 <div id="wrapper" style="text-align: center">
                                     <input type="button" id="Back" class="button bl" style="float: left;" value="Back" name="back" />
-                                    <input type="button" id="Login" class="button bl" style="float: right;" value="Login" name="login" />
+                                    <form action="Search Page.html">
+                                        <input type="submit" id="Login" class="button bl" style="float: right;" value="Login" name="login" />
+                                    </form>
                                 </div>
                             </div>
                         </div>
