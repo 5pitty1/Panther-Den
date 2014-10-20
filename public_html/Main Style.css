@@ -21,6 +21,20 @@ input, .button:focus {
     outline: none;
 }
 
+input:focus::-webkit-input-placeholder {
+    color: #7aaaca;
+}
+
+input:focus {
+    border-color: #7aaaca !important;
+    color: #7aaaca !important;
+}
+
+.button:hover{
+    color: #7aaaca;
+    border-color: #7aaaca;
+}
+
 .button:hover{
     cursor: pointer;
 }
