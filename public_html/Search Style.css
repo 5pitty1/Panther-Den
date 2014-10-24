@@ -10,6 +10,7 @@
 .headerbox {
     position: relative;
     float: right;
+    //background-color: #f0f1f3;
     background-color: #f0f1f3;
     -webkit-border-radius: 0 0 0 1vw;
     border-radius: 0 0 0 1vw;
